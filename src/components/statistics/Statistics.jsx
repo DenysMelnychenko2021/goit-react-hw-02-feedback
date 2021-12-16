@@ -4,7 +4,6 @@ import s from './Statistics.module.css';
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <div>
-      <p>Statistics</p>
       <p className={s.Feedback}>
         Good: <span className={s.FeedbackGood}>{good}</span>
         Neutral: <span className={s.FeedbackNeutral}>{neutral}</span>
